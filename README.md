@@ -95,7 +95,7 @@ sh.update({'HPKP':{'pins':[{'sha256':'1234'}]},'read-only':True})
 * Header keys can be written using either '_' or '-', but are case sensitive
   * Acceptable: 'X-XSS-Protection','X_XSS_Protection'
   * Unacceptable: 'x-xss-protection'
-* 3 headers are abreviated
+* 3 headers are abbreviated
   * CSP = Content-Security-Policy
   * HSTS = Strict-Transport-Security
   * HPKP = Public-Key-Pins
